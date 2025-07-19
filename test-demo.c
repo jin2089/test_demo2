@@ -36,6 +36,7 @@ static void __exit xxx_exit(void)
 	printk(KERN_SOH "7" "打印等级%d\r\n",7);
 	printk("%s\r\n","默认等级信息");
 	printk("%s\r\n","默认等级信息");
+	printf(" test-demo\r\n");
 }
 
 //按装模块执行函数
