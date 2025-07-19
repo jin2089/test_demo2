@@ -19,6 +19,7 @@ static int __init xxx_init(void)
 	printk(KERN_INFO "打印等级%d\r\n",6);
 	printk(KERN_DEBUG "打印等级%d\r\n",7);
 	printk(KERN_DEFAULT "%s\r\n","默认等级信息");
+	printk(KERN_DEFAULT "%s\r\n","默认等级信息");
 	return 0;
 }
 
