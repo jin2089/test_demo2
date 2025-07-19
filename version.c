@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-#define version_1
+#define version_2
 
 
 int main()
